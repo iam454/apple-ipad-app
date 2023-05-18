@@ -153,3 +153,7 @@ navigations.forEach(function (nav) {
 
   navigationsEL.append(mapEl);
 });
+
+// 날짜
+const thisYearEl = document.querySelector("span.this-year");
+thisYearEl.textContent = new Date().getFullYear();
